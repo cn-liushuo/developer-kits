@@ -25,6 +25,7 @@ git lfs pull
 |------|------|--------|----------|
 | `Git-2.39.2-32-bit.exe` | Git 2.39.2 Windows 32 位安装程序 | 51 MB | 普通 Git |
 | `nvm-setup.exe` | nvm-windows 安装程序（Node 版本管理） | 5 MB | 普通 Git |
+| `OpenJDK8U-jdk_x64_windows_hotspot_8u504b01.msi` | Eclipse Temurin OpenJDK 8（Windows x64） | 85 MB | 普通 Git |
 | `nacos-server-2.0.1.zip` | Nacos Server 2.0.1 | 112 MB | Git LFS |
 | `navicat18_premium_lite_cs_x64.exe` | Navicat 18 Premium Lite（简体中文 x64） | 161 MB | Git LFS |
 | `OpenJDK17U-jdk_x64_windows_hotspot_17.0.20.1_1.msi` | Eclipse Temurin OpenJDK 17（Windows x64） | 161 MB | Git LFS |
@@ -33,9 +34,9 @@ git lfs pull
 
 1. **Git**：运行 `Git-2.39.2-32-bit.exe` 安装；若本机为 64 位系统，可按需自行改用官方 64 位安装包。
 2. **nvm**：运行 `nvm-setup.exe`，安装后可用 `nvm install` / `nvm use` 管理 Node.js 版本。
-3. **Nacos**：解压 `nacos-server-2.0.1.zip` 后，按官方文档启动（常见为 `bin/startup.cmd` 或 `bin/startup.sh`）。
-4. **Navicat**：运行对应 `.exe` 安装。
-5. **OpenJDK 17**：运行 `.msi` 安装；安装后可用 `java -version` 确认。
+3. **OpenJDK 8 / 17**：运行对应 `.msi` 安装；安装后可用 `java -version` 确认。同一台机器可安装多个 JDK，通过 `JAVA_HOME` 切换。
+4. **Nacos**：解压 `nacos-server-2.0.1.zip` 后，按官方文档启动（常见为 `bin/startup.cmd` 或 `bin/startup.sh`）。
+5. **Navicat**：运行对应 `.exe` 安装。
 
 ## 新增大文件约定
 
