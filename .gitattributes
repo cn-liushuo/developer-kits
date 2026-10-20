@@ -1,2 +1,4 @@
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.exe filter=lfs diff=lfs merge=lfs -text
+# 小体积安装包不走 LFS
+nvm-setup.exe -filter -diff -merge text
