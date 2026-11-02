@@ -30,6 +30,7 @@ git lfs pull
 | `navicat18_premium_lite_cs_x64.exe` | Navicat 18 Premium Lite（简体中文 x64） | 161 MB | Git LFS |
 | `OpenJDK17U-jdk_x64_windows_hotspot_17.0.20.1_1.msi` | Eclipse Temurin OpenJDK 17（Windows x64） | 161 MB | Git LFS |
 | `Docker Desktop Installer.exe` | Docker Desktop 4.97.0（Windows x64） | 592 MB | Git LFS |
+| `bruno_4.3.0_x64_win.exe` | Bruno 4.3.0（API 调试客户端，Windows x64） | 117 MB | Git LFS |
 
 ## 使用提示
 
@@ -39,6 +40,7 @@ git lfs pull
 4. **Nacos**：解压 `nacos-server-2.0.1.zip` 后，按官方文档启动（常见为 `bin/startup.cmd` 或 `bin/startup.sh`）。
 5. **Navicat**：运行对应 `.exe` 安装。
 6. **Docker Desktop**：运行 `Docker Desktop Installer.exe` 安装（需要 Windows 10/11 x64 并开启 WSL 2 或 Hyper-V）；安装后可用 `docker --version` 确认。
+7. **Bruno**：运行 `bruno_4.3.0_x64_win.exe` 安装，用于本地调试 HTTP/REST 接口。
 
 ## 新增大文件约定
 
